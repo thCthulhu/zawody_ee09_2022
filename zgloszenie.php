@@ -1,6 +1,6 @@
 <?php
     $conn = mysqli_connect('localhost', 'root', '', 'myTest');
-    if(!$conn) echo "Error";
+    if(!$conn) mysqli_connect_error("Error");
     $water = $_POST['water'];
     $date = $_POST['date'];
     $jury = $_POST['jury'];

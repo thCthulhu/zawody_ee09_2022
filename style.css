@@ -7,9 +7,9 @@ body {
 #headerRight {
     background-color: seagreen;
     color: white;
-    line-height: 150px;
     height: 260px;
     font-size: 160%;
+    line-height: 150px;
     float: left;
 }
 
@@ -33,9 +33,9 @@ body {
     background-color: seagreen;
     color: white;
     height: 80px;
-    float: left;
     text-align: center;
     width: 50%;
+    float: left;
 }
 
 input {
