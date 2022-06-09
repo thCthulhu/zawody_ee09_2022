@@ -1,0 +1,55 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+}
+
+#headerLeft,
+#headerRight {
+    background-color: seagreen;
+    color: white;
+    line-height: 150px;
+    height: 260px;
+    font-size: 160%;
+    float: left;
+}
+
+#headerLeft {
+    width: 75%;
+}
+
+#headerRight {
+    text-align: right;
+    width: 25%;
+}
+
+#mainBlock {
+    background-color: mintcream;
+    padding: 50px;
+    clear: both;
+}
+
+#footerLeft,
+#footerRight {
+    background-color: seagreen;
+    color: white;
+    height: 80px;
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+img {
+    box-shadow: 15px 15px 10px dimgray;
+}
+
+a {
+    text-decoration: none;
+    background-color: mintcream;
+    padding: 20px;
+    color: seagreen;
+    line-height: 80px;
+}
